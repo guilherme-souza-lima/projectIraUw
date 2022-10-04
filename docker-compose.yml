@@ -1,0 +1,7 @@
+version: "3"
+services:
+  api:
+    build: .
+    container_name: irauw_api
+    ports:
+      - 11558:8080
